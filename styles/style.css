@@ -369,6 +369,9 @@ color: #131313;
     text-align: center;
     color: #424242;
     margin-bottom: 100px;
+    width: 80%;
+    margin: auto;
+
 
 }
 .footer p{
@@ -378,3 +381,21 @@ color: #131313;
     text-align: center;
     color: #424242;
 }
+@media only screen and (max-with:576px) {
+    
+    .header-item .team  .enjoy-love .some-fact .sponsor-part .future-plan .footer {
+        flex-direction: column;
+        width: 100%;
+        margin: 5px;
+    }
+    /* .mamber .enjoy-detailes .enjoy-girl .facts-info .box-detailes .course-info */
+    .nav .team .mamber .card img .enjoy-love .facts-info .some-fact .box-detailes .sponsor-part .company-info .course{
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+        margin: 0px 10px;
+        width: 100vh;
+        /* flex-direction: column; */
+    }
+    
+}
+
