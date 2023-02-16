@@ -6,13 +6,13 @@ body {
 
 .header-item {
 
-    background-color: rgba(255, 144, 14, 0.1);  
-   
+    background-color: rgba(255, 144, 14, 0.1);
+
 
 }
 
 .nav h1 {
-    
+
     font-size: 30px;
 }
 
@@ -27,7 +27,7 @@ ul li {
 
 .nav ul {
     display: flex;
-   
+
 }
 
 ul li a {
@@ -37,12 +37,12 @@ ul li a {
 
 
 .nav {
-    margin-top: 0px;   
+    margin-top: 0px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding-top: 20px;
-    
+
 }
 
 
@@ -89,75 +89,239 @@ ul li a {
     width: 80%;
     height: 500px;
     margin: 5px 150px;
-   border-radius: 8px;
+    border-radius: 8px;
     margin-top: 50px;
 }
+
 /* ------header style end--- */
 
 /*------------------ team style star------------------ */
-section{
+section {
     margin: 30px 40px;
 }
-.team{
-   width: 80%;
-   margin: 30px auto;
-    display:flex;
-   gap: 50px;
 
-    
+.team {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    gap: 50px;
+
+
 }
-.mamber{
+
+.mamber {
     width: 50%;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-column-gap:20px;
-    grid-row-gap:5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 5px;
     margin-top: 25px;
-    
-}
-.card{
-    height: 250px;
-    width: 280px;
-  box-shadow: 0 0 5px gray;
-    overflow: hidden;
-    position:relative;
+
 }
 
-.card img{
-    width:100%;
+.card {
+    height: 250px;
+    width: 280px;
+    box-shadow: 0 0 5px gray;
+    overflow: hidden;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
     height: 250px;
     transform: scale(1);
     display: block;
- transition: all 0.5s;
-border-radius: 8px;
-}
-.card:hover img{
-    transform: scale(1.05);
-   
-}
-.team-detailes{
-    width: 50%;
-    margin-top: 60px;
-    padding: 60px ;
+    transition: all 0.5s;
+    border-radius: 8px;
 }
 
-.Features{
+.card:hover img {
+    transform: scale(1.05);
+
+}
+
+.team-detailes {
+    width: 50%;
+    margin-top: 60px;
+    padding: 60px;
+}
+
+.Features {
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
     color: #FF900E;
 }
-.Quick-list{
+
+.Quick-list {
     font-style: normal;
     font-weight: 300;
     font-size: 45px;
     line-height: 53px;
     color: #727272;
 }
-.of-Our{
+
+.of-Our {
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
     color: #131313;
 }
+
 /* ------------------team style end--------------------- */
+/* -------------------love-enjoy style start------------ */
+.enjoy-love {
+    display: flex;
+    gap: 5px;
+/* margin: 10px 45px; */
+width: 80%;
+margin: auto;
+}
+
+.enjoy-tittle {
+    width: 468px;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    border-radius: 8px;
+}
+
+.devic-version {
+    width: 400px;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 2px 3px 2px 3px hsla(0, 21%, 95%, 0.83);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.devic-name {
+    width: 300px;
+
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.enjoy-girl-info img {
+    margin-top: 25px;
+    height: 770px;
+    width: 450px;
+}
+
+
+.experience-btn {
+    width: 200px;
+    height: 120px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    position: relative;
+    top: -60px;
+    right: 50px;
+}
+
+
+/* -------------------love-enjoy style end------------ */
+/* ---------------------some fact-style-start---------------------------------- */
+.facts-tittle{
+    width: 258px;
+    height: 33px;
+    left: 240px;
+    top: 3434px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.facts-info{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    transition: border 0 3px soli ;
+}
+.box-detailes{
+    width: 200.83px;
+    height: 200px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+  
+}
+.box-detailes :hover{
+    border: 2px solid rgb(255, 136, 0);  
+}
+.box-detailes img{
+    margin-top: 40px;
+}
+.box-num{
+   
+    font-weight: 500;
+    font-size: 30px;
+    color: #424242;
+    margin-top: 5px;
+   
+
+}
+.box-tittale{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+    margin-top: 8px;
+    
+}
+.some-fact{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+/*-------------------------- some fact style end------------------------ */
+/*----------------------- Our Sponspors start--------------------- */
+.sponsor-part{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+.sponsor-info{
+    text-align: center;
+}
+.sponsor-info h2{
+
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+
+}
+.company-info{
+    margin-top: 10px;
+    display: grid;
+     grid-template-columns:repeat(5, 1fr) ;
+     border: none;
+     justify-content: center;
+}
+.company-name{
+    width: 200px;
+    height: 241px;
+    text-align: center;
+}
+ .cpmpany-name :hover{
+    border: 4px solid rgb(195, 255, 0);
+}
+ 
+
+/* -------------------------Our Sponspors end--------------------- */
