@@ -59,10 +59,10 @@ ul li a {
 }
 
 .brand-tittle {
-    font-size: 60px;
+    font-size: 50px;
     color: #131313;
     line-height: 75px;
-    font-weight: 700;
+    font-weight: 600;
     margin-top: 0px;
 }
 
@@ -331,6 +331,7 @@ color: #131313;
     margin-bottom: 50px;
     font-size: 45px;
     font-weight: 700;
+    margin-top: 0px;
 }
 .course{
     display: grid;
@@ -350,9 +351,30 @@ color: #131313;
 }
 .course-info p{
     color: #f5e3e3;
+   
 }
 .future-plan{
     width: 80%;
     margin: auto;
+    
 }
 /* -----------------future plan style end------ */
+/* -----------------footer------------- */
+.footer{
+    background-color: rgba(255, 244, 231, 1);
+    padding: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: #424242;
+    margin-bottom: 100px;
+
+}
+.footer p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+}
