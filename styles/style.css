@@ -12,7 +12,7 @@ body {
 }
 
 .nav h1 {
-    /* margin-top: 70px;   */
+    
     font-size: 30px;
 }
 
@@ -41,7 +41,7 @@ ul li a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 20px;
+    padding-top: 20px;
     
 }
 
@@ -89,7 +89,75 @@ ul li a {
     width: 80%;
     height: 500px;
     margin: 5px 150px;
-    /* background: url(group-three-modern-architects.jpg); */
-    border-radius: 8px;
+   border-radius: 8px;
     margin-top: 50px;
 }
+/* ------header style end--- */
+
+/*------------------ team style star------------------ */
+section{
+    margin: 30px 40px;
+}
+.team{
+   width: 80%;
+   margin: 30px auto;
+    display:flex;
+   gap: 50px;
+
+    
+}
+.mamber{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap:20px;
+    grid-row-gap:5px;
+    margin-top: 25px;
+    
+}
+.card{
+    height: 250px;
+    width: 280px;
+  box-shadow: 0 0 5px gray;
+    overflow: hidden;
+    position:relative;
+}
+
+.card img{
+    width:100%;
+    height: 250px;
+    transform: scale(1);
+    display: block;
+ transition: all 0.5s;
+border-radius: 8px;
+}
+.card:hover img{
+    transform: scale(1.05);
+   
+}
+.team-detailes{
+    width: 50%;
+    margin-top: 60px;
+    padding: 60px ;
+}
+
+.Features{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FF900E;
+}
+.Quick-list{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+.of-Our{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+/* ------------------team style end--------------------- */
