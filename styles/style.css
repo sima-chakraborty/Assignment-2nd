@@ -325,3 +325,34 @@ color: #131313;
  
 
 /* -------------------------Our Sponspors end--------------------- */
+/* -----------------future plan style start------ */
+.My-Plans-p{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 45px;
+    font-weight: 700;
+}
+.course{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.course-info{
+    background-color: #a191e9;
+    padding: 5px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+.course-info h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+.course-info p{
+    color: #f5e3e3;
+}
+.future-plan{
+    width: 80%;
+    margin: auto;
+}
+/* -----------------future plan style end------ */
